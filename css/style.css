@@ -1,0 +1,351 @@
+*{
+    padding:0px ;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* ------------------------------ start nav part --------------------------------------- */
+nav{
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    z-index: 500;
+}
+
+nav .rightPart ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Alegreya Sans", sans-serif;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #AE9768 !important;
+}
+
+
+/* ------------------------------ end nav part --------------------------------------- */
+
+/* -------------------------------- start nav list ----------------------------------- */
+
+.navList{
+    /* top: 55px; */
+    top: 15%;
+    left: -100%;
+    padding:10px 15px;
+    background-color: #353330;
+    color: white;
+    z-index: 1000;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+.navList span{
+    cursor: pointer;
+    border-bottom: 1px solid black ;
+    /* rgba(255, 255, 255, 0.5) */
+}
+.navList i{
+    cursor: pointer;
+}
+/* -------------------------------- end nav list ----------------------------------- */
+
+/* ------------------------------ start header part --------------------------------------- */
+/* header .blogList{
+    width: 150px;
+    right: 5%;
+    top: 8%;
+    padding: 5px;
+}
+header .blogList ul{ 
+    background-color: #211D22;
+    list-style: none;
+    overflow: hidden;
+  
+}
+header .blogList ul li{
+   list-style: none;
+   
+   margin-left: 0px;
+   margin-bottom: 8px;
+   padding: 5px;
+   transition:0.5s ease-in-out; ;
+   -webkit-transition:0.5s  ;
+   -moz-transition:0.5s  ;
+   -ms-transition:0.5s  ;
+   -o-transition:0.5s  ;
+}
+header .blogList ul li:hover{
+    background-color:#AE9768 ;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+} */
+header{
+    height: 100vh;
+    background-image: url("../Bakery_images/images/drew-coffman-1872.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:RGBA(255, 255, 255, 0.92);
+    
+}
+
+header h5{
+    font-size:22px;
+    font-weight: 400;
+    font-family: "Alegreya Sans", sans-serif;
+}
+header h1{
+    font-size:76px;
+    font-weight: 400;
+    font-family: 'Alegreya', sans-serif;
+}
+header p{
+    font-size:24px;
+    font-weight: 400;
+    font-family: "Alegreya Sans", sans-serif;
+}
+.headerBtn_1{
+    background-color: #AE9768;
+    color: red;
+}
+header button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: "Alegreya Sans", sans-serif;
+    cursor: pointer;
+}
+header button:hover a{
+    color: black !important;
+}
+header button:hover{
+    background-color: white !important;
+}
+/* ------------------------------ end header part --------------------------------------- */
+
+/* ------------------------------- start about part ---------------------------- */
+.aboutPic img{
+    width:95%;
+}
+.aboutText h2{
+    color:#303030;
+    font-size: 32px;
+    font-family: 'alegreya', sans-serif;
+    font-weight: 400;
+}
+.aboutText p{
+    color:#686868;
+    font-size: 17px;
+    font-family:"Alegreya Sans";
+    font-weight: 400;
+}
+
+.aboutText span{
+    color:#686868;
+    font-size: 17px;
+    font-family:"Alegreya Sans";
+    font-weight: 400;
+    margin-left: 10px;
+}
+.iconContainer{
+    padding: 8px;
+    border:1px solid #AE9768 ;
+    border-radius: 100% ;
+    -webkit-border-radius: 100% ;
+    -moz-border-radius: 100% ;
+    -ms-border-radius: 100% ;
+    -o-border-radius: 100% ;
+    margin: 10px 0px;
+}
+.iconContainer i{
+    color:#AE9768;
+}
+/* -------------------------------- end about part -------------------------------- */
+
+/* ---------------------------------- start location -------------------------------- */
+/* #F8F8F8 */
+.locationSection{
+    background-color: #F8F8F8;
+}
+.locationImage img{
+    width: 100%;
+}
+.locationText h2{
+    color: #303030;
+    font-size: 32px;
+    font-weight: 400;
+    font-family:"Alegreya";
+}
+.locationText p{
+    color: #686868;
+    font-size: 17px;
+    font-weight: 400;
+    font-family:"Alegreya Sans";
+    line-height: 30px;
+}
+/* --------------------------------- end location --------------------------------------- */
+
+/* --------------------------------- start Baking --------------------------------------- */
+
+.bakingText h2{
+    color:#303030;
+    font-size:30px ;
+    font-family: 'Alegreya';
+    font-weight: 400;
+}
+.bakingText p{
+    color:#888888;
+    font-size:17px ;
+    font-family:"Alegreya Sans";
+    font-weight: 400;
+}
+.bakingImage img{
+    width: 95%;
+}
+.bakingCaption h3{
+    color:#303030;
+    font-size:22px ;
+    font-family: 'Alegreya';
+    font-weight: 400;
+}
+.bakingCaption p{
+    color:#686868;
+    font-size:17px ;
+    font-family:"Alegreya Sans";
+    font-weight: 400;
+    line-height: 30px;
+}
+/* --------------------------------- end Baking --------------------------------------- */
+
+/* ---------------------------------- start contacts --------------------------------- */
+.contactSection{
+    background-color: #F8F8F8;
+}
+.contactInformation h2{
+    color:#303030;
+    font-size:32px ;
+    font-family: 'Alegreya';
+    font-weight: 400;
+    
+}
+.contactInformation p{
+    color:#686868;
+    font-size:17px ;
+    font-family:"Alegreya Sans";
+    font-weight: 400;
+    
+}
+.contactDetails h3{
+    color:#686868;
+    font-size:17px ;
+    font-family:"Alegreya Sans";
+    font-weight: 400;
+}
+.contactDetails p{
+    margin-left: 10px;
+    margin-bottom:20px;
+    color:#686868;
+    font-size:17px ;
+    font-family:"Alegreya Sans";
+    font-weight: 400;
+}
+.contactDetails i{
+    margin-bottom: 20px;
+    color: white;
+    padding: 8px;
+    background-color: #AE9768;;
+    border: 1px solid ;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.contactDetails tr{
+    margin-bottom: 20px;
+}
+/* ---------------------------------- end contacts --------------------------------- */
+
+/* ----------------------------------- start footer ---------------------------------- */
+
+.footerSection{
+    
+    background-color: #403D38;
+}
+.footerSection .mapPart{
+    position: relative;
+    
+}
+.mapPart::after{
+    content: ' ';
+    position: absolute;
+    left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+    background-image: url('../Bakery_images/images/contact-details-map.png');
+    background-repeat: no-repeat;
+    background-position: 50px;
+}
+.footerSection h3{
+    color:#FFFFFF;
+    font-size:18px ;
+    font-family: 'Alegreya';
+    font-weight: 400;
+}
+.footerSection p{
+    color:#969696;
+    font-size:16px ;
+    font-family:"Alegreya Sans";
+    font-weight: 400;
+    margin-left: 10px;
+}
+.footerSection i{
+    color:#969696;
+}
+.footerFirstSection p{
+    line-height: 30px;
+    margin-left: 0px;
+}
+.footerSection tr{
+    border-bottom: 0.0000001cm solid #969696;
+}
+
+footer{
+    background-color: #353330;
+}
+footer p{
+    color: #777777;
+    font-size:15px ;
+    font-family:"Alegreya Sans";
+    font-weight: 400;
+
+}
+footer i{
+    color: #777777;
+    width: 40px;
+    height: 40px ;
+    font-size: 20px;
+    background-color: #474440;
+    padding: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin-right: 5px;
+}
+.footerImage{
+    width: 20%;
+}
+/* ----------------------------------- end footer ------------------------------------- */

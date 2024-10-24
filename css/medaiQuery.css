@@ -1,0 +1,431 @@
+@media (max-width: 768px) {
+    .hidden-ss {
+      display: none !important;
+    }
+   /*---------------------------------- start nav -------------------------------*/
+    nav{
+        position: relative;
+        padding-top: 25px !important;
+    }
+    .navLogo img{
+       width: 35% !important;
+       display: block;
+    }
+    .navLogo{
+        justify-content: end !important;
+       
+        position: absolute;
+        top: 25px;
+        right: 10px;
+    }
+    /* ------------------------------ start header ------------------------------- */
+    header{
+        height:100vh !important;
+        background-size:cover;
+        background-position: center center
+    }
+    header .container{
+        /* margin-bottom: 70px; */
+        padding: 0px 15px !important;
+    }
+    header h5{
+        font-size:20px;
+    }
+    header h1{
+        font-size:38px;
+    }
+    header p{
+        width: 100%;
+        font-size:15px;
+    }
+    header .btn {
+        padding: 5px !important;
+        font-size: 13px !important;
+        margin-top: 20px;
+    }
+    /* ------------------------------ end header ------------------------------------ */
+
+    /* ------------------------------ start about ------------------------------------ */
+    .aboutSection{
+        padding: 30px 0px;
+    }
+    .aboutPic img{
+        width:100%;
+    }
+    .aboutSection .container{
+        padding: 15px !important;
+    }
+    .aboutText h2{
+        font-size: 30px;
+        margin: 18px 0px;
+    }
+    .aboutText p{
+        line-height: 30px;
+    }
+    .aboutSection .iconContainer{
+        margin: 15px 0px;
+    }
+    /* ------------------------------- end about ------------------------ */
+
+    /* ------------------------------- start location ------------------------ */
+    .locationSection{
+        padding: 10px 0px 50px 0px !important;
+        text-align: start !important;
+    }
+
+    .locationImage{
+        width: 100% ;
+        margin: 10px 0px;
+    }
+    .locationSection .container .row{
+        padding: 0px !important;
+    }
+    .locationText h2{
+        font-size: 30px;
+    }
+    .locationText p{
+        line-height: 30px;
+    }
+
+    /* ----------------------- end lcation --------------------------- */
+
+    /* ------------------------------- start Baking ------------------------ */
+    .bakingSection{
+        padding: 45px 0px 50px 0px !important;
+    }
+    .bakingCaption h3{
+        margin-top: 30px;
+    }
+    .bakingCaption p{
+        margin-bottom: 30px !important;
+    }
+
+    /* -------------------------------- end Baking ------------------------------ */
+
+    /* -------------------------------- start contacts --------------------------- */
+
+    .contactSection{
+        padding: 55px 0px 50px 0px !important;
+    }
+    .contactInformation h2{
+        font-size: 25px;
+    }
+    .contactDetails {
+        margin-bottom: 35px;
+    }
+    /* -------------------------------- end contacts ------------------------------- */
+
+    /* -------------------------------- start footer --------------------------------- */
+
+    .footerSection{
+        padding: 55px 0px 50px 0px !important;
+    }
+    /* .footerSection p:nth-child(3){
+        margin-bottom: 50px;
+    } */
+     .footerSection .container .row .footerList:nth-child(1){
+        margin-bottom: 25px;
+     }
+     .footerSection .container .row .footerList:nth-child(2){
+        margin-bottom: 25px;
+     }
+     .footerSection .container .row .footerList:nth-child(3){
+        margin-bottom: 25px;
+     }
+     .footerSection .container .row .footerList:nth-child(4){
+        margin-bottom: 25px;
+     }
+     .footerImage{
+        width: 80%;
+    }
+}
+  /* --------------------------------------------------------------------------------------------------------------------- */
+   @media screen and (min-width:768px) and (max-width:992px) {
+    nav{
+        position: relative;
+    }
+    .navLogo img{
+       width: 35% !important;
+       display: block;
+    }
+    .navLogo{
+        justify-content: end !important;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .aboutPic {
+        display: flex;
+        align-items: center;
+    }
+    .locationImage{
+        display: flex;
+        align-items: center;
+    }
+   }
+
+   /* --------------------------------------------------------------------------------------------------------------------- */
+   @media screen and (min-width:992px) and (max-width:1024px){
+    .hidden-ss {
+        display: none !important;
+      }
+    nav{
+        position: static;
+    }
+    .navLogo img{
+       width: 35% !important;
+       display: block;
+    }
+    .navLogo{
+        justify-content: center !important;
+        position: static;
+    }
+    .aboutPic {
+        display: flex;
+        align-items: center;
+    }
+    .locationImage{
+        display: flex;
+        align-items: center;
+    }
+   }
+
+   /* --------------------------------------------------------------------------------------------------------------------- */
+
+   @media screen and (min-width:1024px){
+    .navList{
+        left: -100% !important;
+        
+    }
+   }
+  /* --------------------------------------------------------------------------------------------------------------------- */
+   @media screen and (min-width:1024px) and (max-width:1439px){
+    .hidden-ss {
+        display: none !important;
+      }
+    .locationSection{
+        padding: 30px 20px 60px 20px!important;
+    }
+    .locationSection .container .row{
+        padding: 0px !important;
+    }
+    .locationImage img{
+        width: 90% !important;
+      
+    }
+   }
+   /* --------------------------------------------------------------------------------------------------------------------- */
+
+   @media (min-width: 2560px){
+    .hidden-ss {
+        display: none !important;
+      }
+    *{
+        padding: 0px;
+    }
+    img{
+        width: 100% !important;
+    }
+    
+
+    header .container{
+        padding-bottom: 0px !important;
+    }
+    header h5{
+        font-size:50px;
+    }
+    header h1{
+        font-size:100px;
+    }
+    header p{
+        width: 100%;
+        font-size:35px;
+    }
+    header .btn {
+        margin-top: 20px;
+        padding: 30px !important;
+        font-size: 30px !important;
+    }
+    /* ------------------------------ end header ------------------------------------ */
+
+    /* ------------------------------ start about ------------------------------------ */
+    .aboutSection{
+        padding: 30px 0px;
+    }
+    /* .aboutPic img{
+        width:100%;
+    } */
+    .aboutPic{
+        display: flex;
+        align-items: center;
+    }
+    .aboutSection .container{
+        padding: 0px;
+        width: 100lvh !important;
+    }
+    .aboutText{
+        padding-left: 30px;
+    }
+    .aboutText h2{
+        font-size: 80px;
+        margin: 18px 0px;
+    }
+    .aboutText p{
+        font-size: 35px;
+        
+        /* line-height: 60px; */
+    }
+    .aboutText span{
+        font-size: 25px;
+    }
+    .aboutSection .iconContainer{
+        margin: 15px 0px;
+    }
+    .aboutSection .aboutTable{
+        margin-top: 30px;
+    }
+    /* ------------------------------- end about ------------------------ */
+
+    /* ------------------------------- start location ------------------------ */
+    .locationSection{
+        padding: 50px 0px !important;
+        text-align: start !important;
+    }
+
+    .locationImage{
+        /* width: 100% ;
+        margin: 10px 0px; */
+        display: flex;
+        align-items: center;
+    }
+    .locationSection .container .row{
+        padding: 0px !important;
+    }
+    .locationText{
+        padding-right:30px ;
+    }
+    .locationText h2{
+        font-size: 80px;
+    }
+    .locationText p{
+        font-size: 35px;
+        line-height: 60px;
+    }
+    .locationFirstParagraph{
+        margin-bottom: 50px;
+    }
+
+    /* ----------------------- end lcation --------------------------- */
+
+    /* ------------------------------- start Baking ------------------------ */
+    .bakingSection{
+        padding: 50px 0px !important;
+    }
+    .bakingText h2{
+        font-size: 80px;
+    }
+    .bakingText p{
+        font-size: 40px;
+    }
+    .bakingCaption h3{
+        margin-top: 30px;
+        font-size: 60px;
+    }
+    .bakingCaption p{
+        margin-bottom: 30px !important;
+        margin-top: 30px !important;
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    /* -------------------------------- end Baking ------------------------------ */
+
+    /* -------------------------------- start contacts --------------------------- */
+
+    .contactSection{
+        padding: 55px !important;
+    }
+    .contactSection .container{
+        padding: 0px;
+    }
+    .contactInformation h2{
+        font-size: 75px;
+    }
+    .contactInformation p{
+        font-size: 35px;
+    }
+    .contactDetails {
+        margin-bottom: 35px;
+    }
+    .contactDetails h3{
+        font-size: 60px;
+    }
+    .contactDetails p{
+        font-size: 35px;
+    }
+    .contactMap{
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+    /* -------------------------------- end contacts ------------------------------- */
+
+    /* -------------------------------- start footer --------------------------------- */
+
+    .footerSection{
+        padding: 55px !important;
+    }
+    /* .footerSection p:nth-child(3){
+        margin-bottom: 50px;
+    } */
+     .footerSection .container .row .footerList:nth-child(1){
+        margin-bottom: 25px;
+     }
+     .footerSection .container .row .footerList:nth-child(2){
+        margin-bottom: 25px;
+     }
+     .footerSection .container .row .footerList:nth-child(3){
+        margin-bottom: 25px;
+     }
+     .footerSection .container .row .footerList:nth-child(4){
+        margin-bottom: 25px;
+     }
+     .footerSection h3{
+        font-size: 35px;
+     }
+     .footerSection p{
+        font-size: 30px;
+     }
+     .footerFirstSection p{
+        font-size: 30px;
+        line-height: 50px;
+     }
+     .footerFirstSection p:nth-child(2){
+        margin-bottom: 40px;
+     }
+     .footerSection i{
+        font-size: 30px;
+     }
+     .footerImage{
+        width: 50% !important;
+        
+    }
+    footer p{
+        font-size: 30px;
+    }
+    footer i{
+        color: #777777;
+        width: 100px;
+        height: 100px ;
+        font-size: 50px;
+        background-color: #474440;
+        padding: 30px;
+        border-radius: 100%;
+        -webkit-border-radius: 100%;
+        -moz-border-radius: 100%;
+        -ms-border-radius: 100%;
+        -o-border-radius: 100%;
+        margin-right: 5px;
+    }
+}
+/* ------------------------------------------------------------------------------------------------ */
